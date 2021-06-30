@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+ <html> 
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+      <title>Essai bulma!</title>
+      <link rel="stylesheet" href="css/bulma.min.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/main.js">
+      <link rel="stylesheet" href="css/devicon.min.css">
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+  </head>  
+  <body>  
+      <!--l'entete-->
+    <div class="block">
+        <header class="header">
+          <a href="#" class="header-logo">DJELKA Corporation </a>
+          <nav class="header-menu">
+              <a href="#">Accueil</a>
+              <a href="#">Apropos</a>
+              <a href="#">Mes contacter</a>
+              <a href="#">Traveaux</a>
+            </nav>
+        </header>
+     
+      <!--le nav bar qui va disparaitre-->
+       
+        <div class="navbar-end">
+             <div class="navbar-item has-dropdown is-hoverable"> 
+                 <div class="navbar-primary"> Jessy djonga </div>                          
+                     <div class="navbar-dropdown">
+                         <a class="navbar-item">
+                           <span class="icon is-small"> 
+                           </span>Accueil
+                         </a>       
+                         <a class="navbar-item">
+                           <span class="icon is-small"> 
+                           </span>Apropos                                                
+                         </a>
+                         <a class="navbar-item">
+                           <span class="icon is-small"> 
+                            </span>Traveaux  
+                          </a>
+                          <a class="navbar-item">
+                            <span class="icon is-small">                                   
+                            </span>Mes contacter 
+                          </a>       
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    <!--nav bar-->                 
+ </header>
+</div> 
+    <!--l'entete--> 
+   <div class="block">
+    <div class="banner">
+        <img src="bordo.jpg" alt="la ville de bordo" class="banner-image">
+        
+        <div class="banner-content">
+            <h1 class="title is-1">Bienvenue sur mon site</h1>
+            <h2 class="subtitle">Découvrer mes traveaux et mon univers</h2>
+            <button class="button is-primary" id="open_modal">contacter</button>
+        </div>
+    </div>
+
+   </div> 
+   <!--banner-->
+   <!--modal-->
+   <div class="modal" id="modal_to_open">
+       <div class="modal-background"></div>
+       <div class="modal-card">
+           <header class="modal-card-head">
+               <p class="modal-card-title">titre du modal</p>
+               <button class="delete" aria-label="close"></button>
+           </header>
+           <section class="modal-card-body">
+               <!---->
+           </section>
+           <footer class="modal-card-foot">
+               <button class="button is-success">save changes</button>
+               <button class="button">Cancel</button>
+           </footer>
+
+       </div>
+   </div>
+   <!--modal-->
+<div class="block">
+    <div class="container about">
+        <div class="columns">
+            <div class="column about-single-element">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere eligendi magnam illo minus delectus fugiat in cupiditate alias tempora, nihil cum culpa laborum deleniti sit hic, pariatur dolore amet!Possimus tenetur deserunt aut ad, ullam exercitationem quaerat labore et unde? Amet sunt earum, officiis suscipit ipsam cum ducimus sit temporibus mollitia accusamus iusto dolorum quae eum, expedita ipsa tenetur!</p>
+            </div>
+            <div class="column about-single-element">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quam officia dolore, corrupti in maiores molestias soluta dolorem laudantium, vel doloremque enim numquam? Cum ut esse vero reprehenderit, ad explicabo.Saepe delectus non, fugit ducimus incidunt tempore praesentium minus rem eligendi iure expedita quo ut magnam at deleniti nemo repellat laborum! Nulla, doloremque! Sequi aliquam iste repellat, quibusdam illo aperiam!</p>
+            </div>
+            <div class="column about-single-element">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic at itaque cumque quo ullam, molestias vel dolores a, aspernatur ratione quidem facilis amet eaque earum ab aliquid beatae aperiam architecto.Totam aperiam quibusdam nesciunt officiis expedita obcaecati veniam est quo sequi quia repellendus non, sunt debitis. Voluptates quis itaque unde cum officia, vel consequatur, voluptas assumenda fugiat quos odit pariatur?</p>
+            </div>
+        </div>
+    </div>
+</div>
+<img src="Spank.gif" alt="cr7"id="cr7">
+<!--section formulaire-->
+<div class="block">
+    <footer class="footer">
+        <h2 class="heading"> contactez-moi </h2>
+        <div class="footer-contact">
+            <form>
+                <div class="field">
+                    <label class="label">Votre Noms</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="ex: djonga" name="name">
+                    </div>
+                </div>
+                <div class="field">
+                        <label class="label">Votre Prenom</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="jessy" name="firstname">
+                        </div>
+                    </div>
+                    <div class="field">
+                            <label class="label">Votre email</label>
+                            <div class="control">
+                                <input class="input" type="email" placeholder="@gmail" name="email">
+                            </div>
+                        </div>
+                        <div class="field">
+                                <label class="label">Votre Message</label>
+                                <div class="control">
+                                <textarea class="textarea" placeholder="Entrez votre message ici." name="message"></textarea>
+                                </div>
+                            </div>
+            </form>
+            <button class="button is-primary" id="send_email">Envoyer !</button>
+        </div>
+        <div class="footer-information">
+
+        </div>
+    </footer>
+</div>
+<!--section formulaire-->
+
+<script src="css/package.json"></script>
+ </body>
+ </html> 
